@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.logo {
+    height: 60px;
+    border-radius: 5px;
+}
+
+.cabecalho {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    gap: 30px;
+}
+
+.cabecalho a {
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.cabecalho a:hover {
+    font-size: 22px;
+    color: cadetblue;
+    transition: 0.5s ease-in-out;
+}
+
+.psicologo {
+    height: 200px;
+    width: 200px;
+    border-radius: 3px;
+    border : 1px solid cadetblue
+}
+
+.informacoes {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: white;
+}
+
+.ver-mais {
+    height: 40px;
+    width: 200px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.caixa-mae{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 18vh;
+}
+
+.titulo-proposta {
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+    padding-left: 32%;
+    padding-top: 80px;
+}
+
+.proposta {
+    color: white;
+    font-size: 18px;
+    width: 950px;
+    padding-left: 27%;
+}
+
+.caixa-grande {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 20px;
+    height: 300px;
+}
+
+.titulo-caixa-grande {
+    color: cadetblue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.proposta-valor {
+    color: white;
+    font-size: 18px;
+    width: 250px;
+}
+
+.missao {
+    margin-top: 3px;
+}
+
+.valor {
+    margin-top: -152px;
+}
+
+.instagram {
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.arroba {
+    font-size: 50px;
+    margin-left: 210px;
+    margin-top: -85px;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.nos-siga {
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.link-whatsapp {
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.whatsapp {
+    font-size: 40px;
+    margin-left: 210px;
+    margin-top: -70px;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+.ver-mais-isaac {
+    position: relative;
+    margin-left: -600px;
+    margin-top: -400px;
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    z-index: 2;
+}
+
+.ver-mais-victor {
+    position: relative;
+    margin-left: -600px;
+    margin-top: -350px;
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    z-index: 2;
+}
+
+.ver-mais-kaue {
+    position: relative;
+    margin-left: -600px;
+    margin-top: -350px;
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    z-index: 2;
+}
+
+.ver-mais-claudio {
+    position: relative;
+    margin-left: -600px;
+    margin-top: -350px;
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    z-index: 2;
+}
+
+.ver-mais-pedro {
+    position: relative;
+    margin-left: -600px;
+    margin-top: -350px;
+    background-color: white;
+    height: 350px;
+    width: 550px;
+    border-radius: 5px;
+    border: 2px solid gray;
+    z-index: 2;
+}
+
+.img-ver-mais {
+    height: 150px;
+    border: 2px solid gray;
+}
+
+.img-ver-maiskaue {
+    height: 150px;
+    width: 110px;
+    border: 2px solid gray;
+}
+
+.itens-ver-mais {
+    font-size: 16px;
+    margin-left: 120px;
+    margin-top: -130px;
+}
+
+.descricao-ver-mais {
+    margin-left: 10px;
+    margin-top: 45px;
+}
+
+.entre-contato {
+    font-size: 18px;
+    margin-left: 55px;
+    margin-top: -37px;
+    border: 2px solid gray;
+    width: 255px;
+    background-color: green;
+    color: white;
+}
+
+.whatsapp-ver-isaac {
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.whatsapp-ver-victor {
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.fechar {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30px;
+    height: 22px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    top: -325px;
+    left: 516px;
+    cursor: pointer;
+}
+
+.fechar-victor {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30px;
+    height: 22px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    top: -331px;
+    left: 516px;
+    cursor: pointer;
+}
+
+.fechar-kaue {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30px;
+    height: 22px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    top: -331px;
+    left: 516px;
+    cursor: pointer;
+}
+
+.fechar-claudio {
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+    width: 30px;
+    height: 22px;
+    border: none;
+    border-radius: 3px;
+    background-color: red;
+    color: white;
+    top: -331px;
+    left: 516px;
+    cursor: pointer;
+}
+
+.mascara-ver-mais {
+    visibility: hidden;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
